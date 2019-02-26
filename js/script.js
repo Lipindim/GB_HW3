@@ -44,28 +44,13 @@ function countBasketPrice(goods) {
 }
 
 function outputFor() {
-    for(let i = 0; i < 10; console.log(i++)){}
+    for (let i = 0; i < 10; console.log(i++)) {}
 }
 
-
-
-
-function GetRandom(min, max) {
-    let rnd = Math.round(Math.random() * (max - min) + min);
-    return rnd;
-}
-
-function outputPyramid(countBase)
-{
+function outputPyramid(countBase) {
     let ouput = '';
-    for(let i = 1; i <= countBase; i++)
-        {
-            ouput += '*';
-            console.log(ouput);
-        }
+    for (let i = 1; i <= countBase; i++) {
+        ouput += '*';
+        console.log(ouput);
+    }
 }
-
-
-
-var a = GetRandom(-15, 15);
-var b = GetRandom(-15, 15);
